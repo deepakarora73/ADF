@@ -1,0 +1,9 @@
+{
+	"name": "DeepakADF07162022",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d1f30b0b-9c52-415a-91f2-5e7a626caaaa",
+		"tenantId": "73c8032d-7c7a-4116-829a-e2c6ea4382d7"
+	}
+}
