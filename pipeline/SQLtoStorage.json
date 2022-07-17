@@ -77,8 +77,8 @@
 					"url": "https://prod-04.eastus.logic.azure.com:443/workflows/922f1003c8044c4da7e8e94968f28e42/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=p1tZZ2vda_noBLEx2YpUODvhSTdEI0wut1YaPOPK_ac",
 					"method": "POST",
 					"body": {
-						"pipeline": "Test Pipeline",
-						"error": "Error Occured from ADF, please contact the administrator"
+						"value": "@pipeline().Pipeline",
+						"type": "Expression"
 					}
 				}
 			}
